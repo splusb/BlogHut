@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/func.css">
+    <link rel="stylesheet" href="css/styling.css">
+    <title>News Blog</title>
+</head>
+<body>
+    <div class="navigation_bar">
+        <div class="nav_left">
+            <span>Bloghut</span>
+            <ul>
+                <li><a href="index.html"  rel="noopener noreferrer">Home</a></li>
+                <li><a href="about.html"  rel="noopener noreferrer">About</a></li>
+                <li><a href="contact.html"  rel="noopener noreferrer">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <form action="/search.html">
+                <input class="form_input" type="text" placeholder="Article_Search" name="query" required>
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="max_width_1 m_auto"><hr></div>
+    <div class="content max_width_1 m_auto mar">
+        <div class="content_left">
+            <h1>Welcome</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur modi neque at soluta quod unde vero temporibus numquam non obcaecati similique iure quos totam officiis possimus placeat culpa iusto, eos consequatur dicta, doloremque distinctio? Quo cum nemo ipsum illum, earum corporis quae, facilis rerum incidunt saepe aperiam non eos reprehenderit, illo commodi! Perferendis animi aperiam assumenda dolorum quibusdam asperiores voluptatibus enim id amet! Nisi ipsum dolor neque. Amet, fugiat nam!</p>
+        </div>
+        <div class="content_right">
+            <img src="img/blog_image.jpg.png" alt="blog_pic" width="400" height="355">
+        </div>
+    </div>
+    <div class="max_width_1 m_auto">
+        <hr>
+    </div>
+    <div class="home_articles max_width_1 m_auto font2">
+        <h2>Trending Articles</h2>
+        <div class="home_article">
+            <div class="num"><p>01</p></div>
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href="http://"><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084</button>
+                <p class="yurilike"><span class="count">10</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+        <div class="home_article">
+            <div class="num"><p>02</p></div>
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href="http://"><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084;</button>
+                <p class="yurilike"><span class="count">17</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+        <div class="home_article">
+            <div class="num"><p>03</p></div>
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084;</button>
+                <p class="yurilike"><span class="count">17</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+        <div class="home_article">
+            <div class="num"><p>04</p></div>
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084;</button>
+                <p class="yurilike"><span class="count">41</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+        <div class="home_article">
+            <div class="num"><p>05</p></div>
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084;</button>
+                <p class="yurilike"><span class="count">18</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+        <div class="home_article">
+            <div class="num"><p>06</p></div>            
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084;</button>
+                <p class="yurilike"><span class="count">72</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+        <div class="home_article">
+            <div class="num"><p>07</p></div>            
+            <div class="home_article_img">
+                <img src="img/Data_science.jpg.png" alt="Data_science">
+            </div>
+            <div class="home_article_content font1">
+                <a href=""><h3>Lorem ipsum dolor sit amet consectetur</h3></a>
+                <span>Author Name | </span>
+                <span>Published Date</span>
+            </div>
+            <div class="like">                
+                <button class= "heartbtn" onclick="addLike(this)">&#10084;</button>
+                <p class="yurilike"><span class="count">46</span></p>
+            </div>
+            <script>
+                function addLike(e){
+                let count = Number(e.nextElementSibling.innerText) + 1;
+                e.nextElementSibling.innerText = count;
+                }
+            </script>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Privacy Policy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Latest Posts</h3>
+              <ul>
+                <li><a href="#">Post Title 1</a></li>
+                <li><a href="#">Post Title 2</a></li>
+                <li><a href="#">Post Title 3</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Terms of Service</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta odio tempora eaque! Pariatur sequi ipsum unde aut adipisci, quas officiis.</p>
+            </div>
+          </div>
+        </div>
+      </footer>      
+</body>
+</html>
